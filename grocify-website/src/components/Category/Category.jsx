@@ -6,13 +6,17 @@ import DairyCat from "../../assets/dairy-and-eggs.png";
 import Button from "../Button/Button";
 
 const Category = () => {
-  const renderCards = category.map(({ name, description, image }) => {
+  const renderCards = category.map(({ name, description, image, id }) => {
     return (
       // Card
-      <div className="flex-1 basis-[300px]">
+      <div className="flex-1 basis-[300px]" key={id}>
         {/* card image */}
         <div className=" w-full min-h-[30vh] relative -mb-10">
-          <img src={image} alt={name} className="absolute bottom-0 max-w-full h-auto" />
+          <img
+            src={image}
+            alt={name}
+            className="absolute bottom-0 max-w-full h-auto"
+          />
         </div>
 
         {/* card content */}
