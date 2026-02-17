@@ -78,7 +78,7 @@ const Values = () => {
   return (
     <section className="w-full">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-8 sm:py-10 md:py-12 lg:py-16">
-        <Heading highlight="Our" Heading="Values" />
+        <Heading highlight="Our" heading="Values" />
 
         {/* Mobile & Tablet: Stack Everything Vertically */}
         <div className="lg:hidden mt-8 sm:mt-10">

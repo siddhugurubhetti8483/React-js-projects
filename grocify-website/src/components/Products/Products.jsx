@@ -35,7 +35,7 @@ const Products = () => {
   return (
     <section className="w-full bg-white">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20">
-        <Heading highlight="Our" Heading="Products" />
+        <Heading highlight="Our" heading="Products" />
 
         {/* Category Tabs */}
         <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mt-8 sm:mt-10">

@@ -32,7 +32,7 @@ const Category = () => {
   return (
     <section>
       <div className="max-w-[1400px] mx-auto px-5 md:px-10 py-8 md:py-10">
-        <Heading highlight="Shop" Heading="By Category" />
+        <Heading highlight="Shop" heading="By Category" />
 
         {/* Category Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:mt-8">
